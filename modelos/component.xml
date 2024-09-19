@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploymentDiagram>
+    <node name="Servidor de Aplicação Web">
+        <component name="Componente de Cadastro de Competições">
+            <description>Sistema responsável por gerenciar o cadastro de competições.</description>
+        </component>
+        <component name="Componente de Inscrição de Atletas">
+            <description>Sistema responsável por gerenciar a inscrição de atletas nas competições.</description>
+        </component>
+        <component name="Componente de Alocação de Locais">
+            <description>Sistema responsável por alocar locais para as competições sem conflitos de horário.</description>
+        </component>
+        <component name="Componente de Controle de Resultados">
+            <description>Sistema responsável por registrar os resultados das competições e determinar os vencedores.</description>
+        </component>
+        <component name="Componente de Relatórios">
+            <description>Sistema responsável por gerar relatórios de medalhas com base nos resultados das competições.</description>
+        </component>
+    </node>
+</deploymentDiagram>

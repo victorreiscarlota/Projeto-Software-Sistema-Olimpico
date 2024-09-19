@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SistemaGestaoOlmpica>
+    <Descricao>
+        Este sistema é projetado para gerenciar diversos aspectos dos Jogos Olímpicos, incluindo o cadastro de competições, inscrições de atletas, alocação de locais, controle de resultados e geração de relatórios de medalhas.
+    </Descricao>
+
+    <Diagramas>
+        <Diagrama>
+            <Titulo>Diagrama de Caso de Uso</Titulo>
+            <Caminho>caminho/para/imagem/diagrama_caso_uso.png</Caminho>
+        </Diagrama>
+        <Diagrama>
+            <Titulo>Diagrama de Pacotes</Titulo>
+            <Caminho>caminho/para/imagem/diagrama_pacotes.png</Caminho>
+        </Diagrama>
+        <Diagrama>
+            <Titulo>Diagrama de Classes</Titulo>
+            <Caminho>caminho/para/imagem/diagrama_classes.png</Caminho>
+        </Diagrama>
+        <Diagrama>
+            <Titulo>Diagrama de Componentes</Titulo>
+            <Caminho>caminho/para/imagem/diagrama_componentes.png</Caminho>
+        </Diagrama>
+        <Diagrama>
+            <Titulo>Diagrama de Implantação</Titulo>
+            <Caminho>caminho/para/imagem/diagrama_implantacao.png</Caminho>
+        </Diagrama>
+    </Diagramas>
+
+    <HistoriasDeUsuario>
+        <Historia>
+            <ID>1</ID>
+            <Descricao>Como administrador, quero cadastrar competições com detalhes específicos.</Descricao>
+            <Quem>Administrador</Quem>
+            <OQue>Cadastrar competições</OQue>
+            <PorQue>Para gerenciar eventos olímpicos</PorQue>
+        </Historia>
+        <Historia>
+            <ID>2</ID>
+            <Descricao>Como atleta, quero me inscrever em várias competições.</Descricao>
+            <Quem>Atleta</Quem>
+            <OQue>Inscrever-se em competições</OQue>
+            <PorQue>Para representar meu país</PorQue>
+        </Historia>
+        <Historia>
+            <ID>3</ID>
+            <Descricao>Como administrador, quero alocar locais para competições.</Descricao>
+            <Quem>Administrador</Quem>
+            <OQue>Alocar locais de forma eficiente</OQue>
+            <PorQue>Para evitar conflitos de horário</PorQue>
+        </Historia>
+        <Historia>
+            <ID>4</ID>
+            <Descricao>Como administrador, quero registrar os resultados das competições.</Descricao>
+            <Quem>Administrador</Quem>
+            <OQue>Registrar resultados e determinar vencedores</OQue>
+            <PorQue>Para documentar o desempenho</PorQue>
+        </Historia>
+        <Historia>
+            <ID>5</ID>
+            <Descricao>Como administrador, quero gerar relatórios de medalhas.</Descricao>
+            <Quem>Administrador</Quem>
+            <OQue>Criar relatórios que mostrem o desempenho dos países</OQue>
+            <PorQue>Para avaliar o sucesso das nações</PorQue>
+        </Historia>
+    </HistoriasDeUsuario>
+
+    <VisualizacaoDiagramas>
+        Os diagramas estão disponíveis no formato PlantUML e XML, e podem ser visualizados em ferramentas que suportam estes formatos.
+    </VisualizacaoDiagramas>
+</SistemaGestaoOlmpica>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classDiagram>
+    <class name="Competicao">
+        <attribute name="nome" type="String" />
+        <attribute name="data" type="Date" />
+        <attribute name="horario" type="Time" />
+        <attribute name="local" type="Local" />
+        <attribute name="atletas" type="List&lt;Atleta>" />
+    </class>
+
+    <class name="Atleta">
+        <attribute name="nome" type="String" />
+        <attribute name="pais" type="Pais" />
+    </class>
+
+    <class name="Local">
+        <attribute name="nome" type="String" />
+        <attribute name="capacidade" type="int" />
+    </class>
+
+    <class name="Resultado">
+        <attribute name="vencedor" type="Atleta" />
+        <attribute name="segundo" type="Atleta" />
+        <attribute name="terceiro" type="Atleta" />
+    </class>
+
+    <class name="Pais">
+        <attribute name="nome" type="String" />
+        <attribute name="medalhasOuro" type="int" />
+        <attribute name="medalhasPrata" type="int" />
+        <attribute name="medalhasBronze" type="int" />
+    </class>
+
+    <association from="Atleta" to="Competicao" type="many-to-one">
+        <role name="participa" />
+    </association>
+
+    <association from="Competicao" to="Local" type="one-to-one">
+        <role name="ocorre em" />
+    </association>
+
+    <association from="Competicao" to="Resultado" type="one-to-one">
+        <role name="tem" />
+    </association>
+
+    <association from="Atleta" to="Pais" type="many-to-one">
+        <role name="representa" />
+    </association>
+
+    <association from="Pais" to="Atleta" type="one-to-many">
+        <role name="é representado por" />
+    </association>
+</classDiagram>

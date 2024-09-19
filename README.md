@@ -7,28 +7,27 @@ Este sistema é projetado para gerenciar diversos aspectos dos Jogos Olímpicos,
 ## Diagramas
 
 ### 1. Diagrama de Caso de Uso
-- Mostra as interações dos administradores e atletas com o sistema.
+![Diagrama de Caso de Uso](/imagens/case-olimpiada.png)
 
 ### 2. Diagrama de Pacotes
-- Organiza as funcionalidades do sistema em diferentes módulos.
+![Diagrama de Pacotes](/imagens/package.png)
 
 ### 3. Diagrama de Classes
-- Representa a estrutura de classes que compõem o sistema.
+![Diagrama de Classes](/imagens/class-olimpiadas.png)
 
 ### 4. Diagrama de Componentes
-- Descreve os principais componentes da arquitetura do sistema.
+![Diagrama de Componentes](/imagens/component.png)
 
 ### 5. Diagrama de Implantação
-- Mostra a arquitetura física do sistema, incluindo os servidores onde o sistema é implantado.
+![Diagrama de Implantação](/imagens/implant.png)
 
 ## Histórias de Usuário
 
-1. **Cadastro de Competições**: Os administradores podem cadastrar competições com detalhes específicos.
-2. **Inscrição de Atletas**: Atletas podem se inscrever em várias competições, representando seus países.
-3. **Alocação de Locais**: Os locais devem ser alocados para evitar conflitos de horário.
-4. **Controle de Resultados**: Resultados das competições são registrados, determinando vencedores.
-5. **Relatórios de Medalhas**: O sistema gera relatórios de medalhas para avaliar o desempenho dos países.
+| **ID** | **História de Usuário**                                         | **Quem**          | **O Que**                                                         | **Por Que**                            |
+|--------|----------------------------------------------------------------|-------------------|------------------------------------------------------------------|----------------------------------------|
+| 1      | Como administrador, quero cadastrar competições com detalhes específicos. | Administrador      | Cadastrar competições                                             | Para gerenciar eventos olímpicos       |
+| 2      | Como atleta, quero me inscrever em várias competições.        | Atleta             | Inscrever-se em competições                                       | Para representar meu país              |
+| 3      | Como administrador, quero alocar locais para competições.      | Administrador      | Alocar locais de forma eficiente                                  | Para evitar conflitos de horário       |
+| 4      | Como administrador, quero registrar os resultados das competições. | Administrador      | Registrar resultados e determinar vencedores                      | Para documentar o desempenho           |
+| 5      | Como administrador, quero gerar relatórios de medalhas.        | Administrador      | Criar relatórios que mostrem o desempenho dos países             | Para avaliar o sucesso das nações      |
 
-## Como Visualizar os Diagramas
-
-Os diagramas estão disponíveis no formato PlantUML e XML, e podem ser visualizados em ferramentas que suportam estes formatos.

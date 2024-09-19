@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageDiagram>
+    <package name="Gerenciamento de Competições">
+        <package name="Competição">
+            <attribute name="Nome" />
+            <attribute name="Data" />
+            <attribute name="Horário" />
+            <attribute name="Local" />
+            <attribute name="Atletas" />
+        </package>
+        <package name="Atleta">
+            <attribute name="Nome" />
+            <attribute name="País" />
+            <attribute name="Competição Inscrita" />
+        </package>
+        <package name="Local">
+            <attribute name="Nome" />
+            <attribute name="Capacidade" />
+            <attribute name="Disponibilidade" />
+        </package>
+    </package>
+
+    <package name="Controle de Resultados">
+        <package name="Resultado">
+            <attribute name="Competição" />
+            <attribute name="Primeiro Lugar" />
+            <attribute name="Segundo Lugar" />
+            <attribute name="Terceiro Lugar" />
+        </package>
+    </package>
+
+    <package name="Relatórios">
+        <package name="Relatório">
+            <attribute name="País" />
+            <attribute name="Medalhas de Ouro" />
+            <attribute name="Medalhas de Prata" />
+            <attribute name="Medalhas de Bronze" />
+        </package>
+    </package>
+</packageDiagram>

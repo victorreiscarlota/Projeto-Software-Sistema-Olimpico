@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:UseCaseDiagram xmlns:uml="http://www.omg.org/spec/UML/20161101/UML.xmi">
+    <uml:actors>
+        <uml:actor name="Atleta" />
+        <uml:actor name="Administrador" />
+    </uml:actors>
+    <uml:useCases>
+        <uml:useCase name="Inscrever Atletas">
+            <uml:actorReference name="Atleta" />
+        </uml:useCase>
+        <uml:useCase name="Gerenciar Competições">
+            <uml:actorReference name="Administrador" />
+        </uml:useCase>
+        <uml:useCase name="Alocar Locais">
+            <uml:actorReference name="Administrador" />
+            <uml:include useCase="Gerenciar Competições" />
+        </uml:useCase>
+        <uml:useCase name="Registrar Resultados">
+            <uml:actorReference name="Administrador" />
+            <uml:include useCase="Gerenciar Competições" />
+        </uml:useCase>
+        <uml:useCase name="Gerar Relatório de Medalhas">
+            <uml:actorReference name="Administrador" />
+            <uml:include useCase="Registrar Resultados" />
+        </uml:useCase>
+    </uml:useCases>
+</uml:UseCaseDiagram>
